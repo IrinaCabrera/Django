@@ -14,29 +14,25 @@ while control==1:
 		numero=int(input('\ningrese "1" para tirar el dado'))
 		
 		if numero == 1:
-			print ('el numero que le toco fue',dado,)
+			print ('\nel numero que le toco fue',dado,)
 			pasos=pasos-dado
 			if pasos < 0:
-				print ('el gigante dio mas pasos de los que debia, cayo por el precipicio')
+				print ('\nel Gigante dio mas pasos de los que debia y cayo por el precipicio')
 				print ('\n-----------\n|GAME OVER|\n-----------')
 
 			if pasos == 0:
 				print ('\nFELICIDADES! EL GIGANTE HA LLEGADO A SU HOGAR SANO Y SALVO!')
 				break
-			print ('Ahora al gigante le quedan',pasos,'por caminar para llegar a destino')
+			print ('Ahora al gigante le quedan',pasos,'pasos para llegar a destino')
 			intentos=intentos-1
 			print ('le quedan',intentos,'intentos')
 			
 			if intentos==0:
-				print ('se ha quedado sin intentos y el gigante no llego a su destino')
+				print ('\nse ha quedado sin intentos y el gigante no llego a su destino')
 				print ('\n-----------\n|GAME OVER|\n-----------')
 				break
-			
-
-
-			
-
-	control= int(input('desea continuar jugando?\n1)si\n2)no'))
+	
+	control= int(input('\ndesea continuar jugando?\n1)si\n2)no'))
 	if control==2:
 		print ('>> Camino Del Gigante se ha cerrado <<<')
 	
