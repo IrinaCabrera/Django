@@ -1,0 +1,24 @@
+.background2{
+	background-image:url(../images/fondo2.jpg);
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	  /*Re-size-responsive*/
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    /*Centra el fondo*/
+    background-position:center;
+}
+.title2{
+	margin:0;
+	font-family:monospace;
+	color:#61380B;
+	background-color:transparent;
+}
+*{
+	margin:0px;
+	padding:0px;
+
+}

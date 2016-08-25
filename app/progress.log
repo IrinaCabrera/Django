@@ -1,0 +1,11 @@
+[2016-08-22 14:06:48] START
+[2016-08-22 14:07:13] CREATE controlador.py: 0
+[2016-08-22 14:07:45] CREATE controlador/vista.html: 0
+[2016-08-22 14:08:01] DELETE app/views/controlador/vista.html: -3
+[2016-08-22 14:08:49] CREATE controlador/home.html: 0
+[2016-08-22 14:10:02] CREATE pruebaTemplate.html: 0
+[2016-08-22 14:38:23] CREATE css/todos.css: 0
+[2016-08-22 22:26:53] CREATE controlador/version.html: 0
+[2016-08-22 22:30:28] EDIT app/controllers/controlador.py: 2
+[2016-08-22 22:30:43] EDIT app/controllers/controlador.py: 0
+[2016-08-22 23:34:11] CREATE css/version.css: 0

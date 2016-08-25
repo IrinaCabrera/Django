@@ -1,0 +1,70 @@
+.background{
+	background-color:black;
+}
+.background2{
+	background-image:url(../images/fondo4.jpg);
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	  /*Re-size-responsive*/
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    /*Centra el fondo*/
+    background-position:center;
+}
+.text{
+	font-family:monospace;
+	color:black;
+	background-color:#81F7D8
+
+}
+.title{
+	margin:0;
+	font-family:monospace;
+	color:black;
+	background-color:#81F7D8;
+}
+.title2{
+	margin:0;
+	font-family:monospace;
+	color:#61380B;
+	background-color:transparent;
+}
+ul{
+	list-style-type:none;
+	font-size:18px;
+	font-family:monospace;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	background-color:#D8D8D8;
+}
+li{
+	float:left;
+}
+li a{
+	text-decoration:none;
+	color:black;
+	padding:20px;
+	display:block;
+	padding-left:45px;
+	padding-right:45px;
+
+}
+li a:hover{
+	background-color:#81F7D8;
+	color:black;
+}
+.mostrar{
+	position:absolute;
+	overflow:hidden;
+	display:none;
+}
+.accion:hover .mostrar{
+	display:block;
+}
+.sombra{
+	box-shadow: 2px 2px 5px black;
+}
